@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fliterJS </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/master/style.css">
+</head>
+<body>
+    
+    <main class="container-fluid">
+        <section class="col-12 py-4">
+            <ul class=" col-8 mx-auto row  justify-content-evenly cat"> 
+                   <li class="col-2 d-flex justify-content-center p-3" onclick="para(this)">cars</li>
+                   <li class="col-2 d-flex justify-content-center p-3" onclick="para(this)">Sport cars</li>
+                   <li class="col-2 d-flex justify-content-center p-3" onclick="para(this)">motorcycle</li>
+                   <li class="col-2 d-flex justify-content-center p-3" onclick="para(this)">bicycle</li>
+                   <li class="col-2 d-flex justify-content-center p-3" onclick="para(this)">all</li>
+            </ul>
+            <ul class="row justify-content-around py-3" >
+              
+               
+                
+                <li class="li-box col-3 " data-car="Cars">
+                    <figure class=" position-relative _boximg  ">
+                        <img class="w-100 fromimg " src="assets/imgc/car1.jpg" alt="">
+                        <img class="w-100 backimg  position-absolute" src="assets/imgc/car2.jpg" alt="">
+                       
+                    </figure>
+    
+                </li>
+                <li class="li-box col-3 " data-car="motorcycle">
+                    <figure class=" position-relative _boximg  ">
+                        <img class="w-100 fromimg " src="assets/carsport/movv09.png" alt="">
+                        <img class="w-100 h-100 backimg  position-absolute" src="assets/carsport/movv12.png" alt="motorcycle">
+                       
+                    </figure>
+    
+                </li>
+                <li class="li-box col-3 " data-car="Cars">
+                    <figure class=" position-relative _boximg  ">
+                        <img class="w-100 fromimg " src="assets/imgc/car3.jpg" alt="">
+                        <img class="w-100 backimg  position-absolute" src="assets/imgc/car4.jpg" alt="">
+                       
+                    </figure>
+    
+                </li>
+                <li class="li-box col-3 " data-car="Bicycle">
+                    <figure class=" position-relative _boximg  ">
+                        <img class="w-100 fromimg " src="assets/img/bi3.png" alt="">
+                        <img class="w-100 backimg  position-absolute" src="assets/img/bi4.png" alt="">
+                       
+                    </figure>
+    
+                </li>
+                <li class="li-box col-3 " data-car="Cars">
+                    <figure class=" position-relative _boximg  ">
+                        <img class="w-100 fromimg " src="assets/imgc/car5.jpg" alt="">
+                        <img class="w-100 backimg  position-absolute" src="assets/imgc/car6.jpg" alt="">
+                       
+                    </figure>
+    
+                </li>
+                  
+                <li class="li-box col-3 " data-car="Motorcycle">
+                    <figure class=" position-relative _boximg  ">
+                        <img class="w-100 fromimg " src="assets/carsport/movv08.png" alt="">
+                        <img class="w-100 h-100 backimg  position-absolute" src="assets/carsport/movv06.png" alt="">
+                       
+                    </figure>
+    
+                </li>
+                <li class="li-box col-3 " data-car="Cars">
+                    <figure class=" position-relative _boximg  ">
+                        <img class="w-100 fromimg " src="assets/imgc/car7.jpg" alt="">
+                        <img class="w-100 backimg  position-absolute" src="assets/imgc/car8.jpg" alt="">
+                       
+                    </figure>
+    
+                </li>
+                  
+                <li class="li-box col-3 " data-car="Bicycle">
+                    <figure class=" position-relative _boximg  ">
+                        <img class="w-100 fromimg " src="assets/img/bi1.png" alt="">
+                        <img class="w-100 backimg  position-absolute" src="assets/img/bi2.png" alt="">
+                       
+                    </figure>
+    
+                </li>
+                <li class="li-box col-3 " data-car="Cars">
+                    <figure class=" position-relative _boximg  ">
+                        <img class="w-100 fromimg " src="assets/imgc/car9.jpg" alt="">
+                        <img class="w-100 backimg  position-absolute" src="assets/imgc/car10.jpg" alt="">
+                       
+                    </figure>
+    
+                </li>
+                <li class="li-box col-3 " data-car="Motorcycle">
+                    <figure class=" position-relative _boximg  ">
+                        <img class="w-100 fromimg " src="assets/carsport/movv11.png" alt="">
+                        <img class="w-100 h-100 backimg  position-absolute" src="assets/carsport/movv22.png" alt="motorcycle">
+                       
+                    </figure>
+    
+                </li>
+                <li class="li-box col-3 " data-car="Cars">
+                    <figure class=" position-relative _boximg  ">
+                        <img class="w-100 fromimg " src="assets/imgc/car11.jpg" alt="">
+                        <img class="w-100 backimg  position-absolute" src="assets/imgc/car2.jpg" alt="">
+                       
+                    </figure>
+    
+                </li>
+       
+                <li class="li-box col-3 " data-car="Motorcycle">
+                    <figure class=" position-relative _boximg  ">
+                        <img class="w-100 fromimg " src="assets/carsport/movv14.png" alt="">
+                        <img class="w-100 h-100 backimg  position-absolute" src="assets/carsport/movv12.png" alt="motorcycle">
+                       
+                    </figure>
+    
+                </li>
+
+                <li class="li-box col-3 " data-car="Bicycle">
+                    <figure class=" position-relative _boximg  ">
+                        <img class="w-100 fromimg " src="assets/img/bi5.png" alt="">
+                        <img class="w-100 backimg  position-absolute" src="assets/img/bi6.png" alt="">
+                       
+                    </figure>
+    
+                </li>
+
+                <li class="li-box col-3 " data-car="Motorcycle">
+                    <figure class=" position-relative _boximg  ">
+                        <img class="w-100 fromimg " src="assets/carsport/movv6.jpg" alt="">
+                        <img class="w-100 h-100 backimg  position-absolute" src="assets/carsport/movv21.jpg" alt="motorcycle">
+                       
+                    </figure>
+    
+                </li>
+
+                
+                <li class="li-box col-3 " data-car="Bicycle">
+                    <figure class=" position-relative _boximg  ">
+                        <img class="w-100 fromimg " src="assets/img/bi1.png" alt="">
+                        <img class="w-100 backimg  position-absolute" src="assets/img/bi6.png" alt="">
+                       
+                    </figure>
+    
+                </li>
+            </ul>
+        </section>
+    </main>
+    
+
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
